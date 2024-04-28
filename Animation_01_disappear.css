@@ -1,0 +1,14 @@
+.A-1{
+    left: -2%;
+    animation: Disappear 2s linear  infinite alternate forwards;
+}
+
+@keyframes Disappear {
+    0%{
+    }
+    100%{
+        background-color: black;    
+        translate:  100%;
+    }
+}
+
